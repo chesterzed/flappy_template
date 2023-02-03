@@ -1,0 +1,26 @@
+class Enemy
+{
+    private int HP = 10;
+    
+    Color color = new Color(1, 1, 1);
+    
+    public void Hit(int damage){
+        HP -= damage;
+    }
+    
+    public int GetHp(){
+        return damage;  // error
+    }
+}
+
+///
+Enemy enemy1;
+int hp = 0;
+// 0
+
+enemy1.HP = 5;  // doesn't work
+enemy1.Hit(4);  // work
+
+hp = enemy1.GetHp();
+// 6
+
