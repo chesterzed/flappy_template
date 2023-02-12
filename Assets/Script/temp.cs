@@ -14,6 +14,7 @@ public class temp : MonoBehaviour
 
     private void OnEnable()
     {
+        //end
     }
 
     private void Start()
