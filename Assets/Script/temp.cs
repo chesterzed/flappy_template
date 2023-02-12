@@ -18,7 +18,7 @@ public class temp : MonoBehaviour
 
     private void Start()
     {
-        
+        // start
     }
 
     private void OnMove(Vector2 direction)
