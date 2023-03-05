@@ -3,7 +3,7 @@ using Random = UnityEngine.Random;
 
 public class PipeGenerator : ObjectPool
 {
-    [SerializeField] private Pipe pipe;
+    [SerializeField] private Pipe _pipe;
     [SerializeField] private float spawnDelay;
     [SerializeField] private float minSpawnPosY;
     [SerializeField] private float maxSpawnPosY;
@@ -12,7 +12,7 @@ public class PipeGenerator : ObjectPool
     
     private void Start()
     {
-        Initialize(pipe.gameObject);
+        Initialize(_pipe.gameObject);
     }
 
     private void Update()

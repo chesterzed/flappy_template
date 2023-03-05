@@ -14,11 +14,6 @@ public class BirdCollisionHanler : MonoBehaviour
         _bird = GetComponent<Bird>();
     }
 
-    // private void OnCollisionEnter2D(Collision2D col)
-    // {
-    //     _bird.Die();
-    // }
-
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.TryGetComponent(out ScoreZone scoreZone))

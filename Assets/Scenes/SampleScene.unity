@@ -1044,7 +1044,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   container: {fileID: 1171671924}
   capacity: 15
-  pipe: {fileID: 2015084910122931486, guid: f9437902821bb4e6ca2bde1fafb963d2, type: 3}
+  _pipe: {fileID: 2015084910122931486, guid: f9437902821bb4e6ca2bde1fafb963d2, type: 3}
   spawnDelay: 1.2
   minSpawnPosY: -0.8
   maxSpawnPosY: 2

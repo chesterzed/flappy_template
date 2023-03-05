@@ -10,6 +10,8 @@ public class temp : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
+        
+        rb.AddForce(Vector3.up, ForceMode.VelocityChange);
     }
 
     private void OnEnable()

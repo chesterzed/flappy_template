@@ -7,13 +7,13 @@ using UnityEngine.Serialization;
 [RequireComponent(typeof(Rigidbody2D))]
 public class BirdMover : MonoBehaviour
 {
-    [FormerlySerializedAs("_startPos")] [SerializeField] private Vector3 startPos;
-    [FormerlySerializedAs("_jumpForce")] [SerializeField] private float jumpForce;
-    [FormerlySerializedAs("_speed")] [SerializeField] private float speed;
+    [SerializeField] private Vector3 startPos;
+    [SerializeField] private float jumpForce;
+    [SerializeField] private float speed;
 
-    [FormerlySerializedAs("_minRotationZ")] [SerializeField] private float minRotationZ;
-    [FormerlySerializedAs("_maxRotationZ")] [SerializeField] private float maxRotationZ;
-    [FormerlySerializedAs("_rotationSpeed")] [SerializeField] private float rotationSpeed;
+    [SerializeField] private float minRotationZ;
+    [SerializeField] private float maxRotationZ;
+    [SerializeField] private float rotationSpeed;
 
     private Quaternion _minRotation;
     private Quaternion _maxRotation;

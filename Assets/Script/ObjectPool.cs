@@ -14,7 +14,7 @@ public class ObjectPool : MonoBehaviour
     protected void Initialize(GameObject prefab)
     {
         _camera = Camera.main;
-        
+
         for (int i = 0; i < capacity; i++)
         {
             GameObject spawnedObject = Instantiate(prefab, container.transform);
